@@ -10,6 +10,11 @@
 		7F02E61128D0557900D38BE6 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02E61028D0557900D38BE6 /* GeometryReaderBootcamp.swift */; };
 		7F02E61328D05B3C00D38BE6 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02E61228D05B3B00D38BE6 /* MultipleSheetsBootcamp.swift */; };
 		7F22B06328CA880200589364 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F22B06228CA880200589364 /* MagnificationGestureBootcamp.swift */; };
+		7FA9E27D28D12888002F1FF8 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9E27C28D12888002F1FF8 /* MaskBootcamp.swift */; };
+		7FA9E27F28D1A543002F1FF8 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9E27E28D1A543002F1FF8 /* SoundsBootcamp.swift */; };
+		7FA9E28328D1A841002F1FF8 /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FA9E28128D1A840002F1FF8 /* duck.mp3 */; };
+		7FA9E28428D1A841002F1FF8 /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FA9E28228D1A840002F1FF8 /* cow.mp3 */; };
+		7FA9E28628D1AB6C002F1FF8 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9E28528D1AB6C002F1FF8 /* HapticsBootcamp.swift */; };
 		7FC483CE28C9C83A00876CAF /* SwiftfulThinkingContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC483CD28C9C83A00876CAF /* SwiftfulThinkingContinuedLearningApp.swift */; };
 		7FC483D028C9C83A00876CAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC483CF28C9C83A00876CAF /* ContentView.swift */; };
 		7FC483D228C9C83C00876CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC483D128C9C83C00876CAF /* Assets.xcassets */; };
@@ -25,6 +30,11 @@
 		7F02E61028D0557900D38BE6 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		7F02E61228D05B3B00D38BE6 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		7F22B06228CA880200589364 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
+		7FA9E27C28D12888002F1FF8 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
+		7FA9E27E28D1A543002F1FF8 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		7FA9E28128D1A840002F1FF8 /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
+		7FA9E28228D1A840002F1FF8 /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
+		7FA9E28528D1AB6C002F1FF8 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		7FC483CA28C9C83A00876CAF /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC483CD28C9C83A00876CAF /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
 		7FC483CF28C9C83A00876CAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FA9E28028D1A813002F1FF8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7FA9E28228D1A840002F1FF8 /* cow.mp3 */,
+				7FA9E28128D1A840002F1FF8 /* duck.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		7FC483C128C9C83A00876CAF = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +96,10 @@
 				7FD7A5E528CF049B003F8DC6 /* ScrollViewReaderBootcamp.swift */,
 				7F02E61028D0557900D38BE6 /* GeometryReaderBootcamp.swift */,
 				7F02E61228D05B3B00D38BE6 /* MultipleSheetsBootcamp.swift */,
+				7FA9E27C28D12888002F1FF8 /* MaskBootcamp.swift */,
+				7FA9E27E28D1A543002F1FF8 /* SoundsBootcamp.swift */,
+				7FA9E28528D1AB6C002F1FF8 /* HapticsBootcamp.swift */,
+				7FA9E28028D1A813002F1FF8 /* Sounds */,
 				7FC483D128C9C83C00876CAF /* Assets.xcassets */,
 				7FC483D328C9C83C00876CAF /* Preview Content */,
 			);
@@ -151,6 +174,8 @@
 			files = (
 				7FC483D528C9C83C00876CAF /* Preview Assets.xcassets in Resources */,
 				7FC483D228C9C83C00876CAF /* Assets.xcassets in Resources */,
+				7FA9E28428D1A841002F1FF8 /* cow.mp3 in Resources */,
+				7FA9E28328D1A841002F1FF8 /* duck.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA9E27F28D1A543002F1FF8 /* SoundsBootcamp.swift in Sources */,
 				7FF5E19A28CE4BD400F4736C /* DragGestureBootcamp2.swift in Sources */,
+				7FA9E27D28D12888002F1FF8 /* MaskBootcamp.swift in Sources */,
 				7FF5E19828CE409000F4736C /* DragGestureBootcamp.swift in Sources */,
 				7FC483D028C9C83A00876CAF /* ContentView.swift in Sources */,
 				7FD7A5E628CF049B003F8DC6 /* ScrollViewReaderBootcamp.swift in Sources */,
@@ -169,6 +196,7 @@
 				7FC483CE28C9C83A00876CAF /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
 				7FC483DC28C9C96A00876CAF /* LongPressGestureBootcamp.swift in Sources */,
 				7F02E61128D0557900D38BE6 /* GeometryReaderBootcamp.swift in Sources */,
+				7FA9E28628D1AB6C002F1FF8 /* HapticsBootcamp.swift in Sources */,
 				7F22B06328CA880200589364 /* MagnificationGestureBootcamp.swift in Sources */,
 				7FF5E19628CE3DD500F4736C /* RotationGestureBootcamp.swift in Sources */,
 			);
